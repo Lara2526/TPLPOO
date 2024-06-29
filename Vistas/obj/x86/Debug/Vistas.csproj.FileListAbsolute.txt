@@ -1,0 +1,46 @@
+C:\Users\admin\Documents\tp grupo7\tp2\LPOOI_GRUPO_07\Vistas\obj\x86\Debug\Vistas.csprojResolveAssemblyReference.cache
+C:\Users\admin\Documents\tp grupo7\tp2\LPOOI_GRUPO_07\Vistas\obj\x86\Debug\Vistas.Properties.Resources.resources
+C:\Users\admin\Documents\tp grupo7\tp2\LPOOI_GRUPO_07\Vistas\obj\x86\Debug\Vistas.csproj.GenerateResource.Cache
+C:\Users\admin\Documents\tp grupo7\tp2\LPOOI_GRUPO_07\Vistas\obj\x86\Debug\Vistas.FrmMenu.resources
+C:\Users\admin\Documents\tp grupo7\tp2\LPOOI_GRUPO_07\Vistas\bin\Debug\Vistas.exe
+C:\Users\admin\Documents\tp grupo7\tp2\LPOOI_GRUPO_07\Vistas\bin\Debug\Vistas.pdb
+C:\Users\admin\Documents\tp grupo7\tp2\LPOOI_GRUPO_07\Vistas\bin\Debug\ClasesBase.dll
+C:\Users\admin\Documents\tp grupo7\tp2\LPOOI_GRUPO_07\Vistas\bin\Debug\ClasesBase.pdb
+C:\Users\admin\Documents\tp grupo7\tp2\LPOOI_GRUPO_07\Vistas\obj\x86\Debug\Vistas.exe
+C:\Users\admin\Documents\tp grupo7\tp2\LPOOI_GRUPO_07\Vistas\obj\x86\Debug\Vistas.pdb
+C:\Users\admin\Documents\tp grupo7\tp2\LPOOI_GRUPO_07\Vistas\obj\x86\Debug\Vistas.FrmABMUsuario.resources
+C:\Users\admin\Documents\tp grupo7\tp2\LPOOI_GRUPO_07\Vistas\obj\x86\Debug\Vistas.FrmLogin.resources
+C:\Users\admin\Documents\tp grupo7\tp2\LPOOI_GRUPO_07\Vistas\obj\x86\Debug\Vistas.FrmABMParticipantes.resources
+E:\App-C#-VB.NET\Demo\LPOOI_GRUPO_07\Vistas\obj\x86\Debug\Vistas.exe
+E:\App-C#-VB.NET\Demo\LPOOI_GRUPO_07\Vistas\obj\x86\Debug\Vistas.pdb
+C:\Users\admin\Downloads\yo\tp2\LPOOI_GRUPO_07\Vistas\obj\x86\Debug\Vistas.exe
+C:\Users\admin\Downloads\yo\tp2\LPOOI_GRUPO_07\Vistas\obj\x86\Debug\Vistas.pdb
+C:\Users\admin\Downloads\yo\tp2\LPOOI_GRUPO_07\Vistas\obj\x86\Debug\Vistas.csprojResolveAssemblyReference.cache
+C:\Users\admin\Downloads\yo\tp2\LPOOI_GRUPO_07\Vistas\obj\x86\Debug\Vistas.FrmABMParticipantes.resources
+C:\Users\admin\Downloads\yo\tp2\LPOOI_GRUPO_07\Vistas\obj\x86\Debug\Vistas.FrmABMUsuario.resources
+C:\Users\admin\Downloads\yo\tp2\LPOOI_GRUPO_07\Vistas\obj\x86\Debug\Vistas.FrmAltaCategoria.resources
+C:\Users\admin\Downloads\yo\tp2\LPOOI_GRUPO_07\Vistas\obj\x86\Debug\Vistas.FrmAltaDisciplina.resources
+C:\Users\admin\Downloads\yo\tp2\LPOOI_GRUPO_07\Vistas\obj\x86\Debug\Vistas.FrmMenu.resources
+C:\Users\admin\Downloads\yo\tp2\LPOOI_GRUPO_07\Vistas\obj\x86\Debug\Vistas.FrmLogin.resources
+C:\Users\admin\Downloads\yo\tp2\LPOOI_GRUPO_07\Vistas\obj\x86\Debug\Vistas.Properties.Resources.resources
+C:\Users\admin\Downloads\yo\tp2\LPOOI_GRUPO_07\Vistas\obj\x86\Debug\Vistas.csproj.GenerateResource.Cache
+C:\Users\admin\Downloads\yo\tp2\LPOOI_GRUPO_07\Vistas\bin\Debug\Vistas.exe
+C:\Users\admin\Downloads\yo\tp2\LPOOI_GRUPO_07\Vistas\bin\Debug\Vistas.pdb
+C:\Users\admin\Downloads\yo\tp2\LPOOI_GRUPO_07\Vistas\bin\Debug\ClasesBase.dll
+C:\Users\admin\Downloads\yo\tp2\LPOOI_GRUPO_07\Vistas\bin\Debug\ClasesBase.pdb
+C:\Users\admin\Downloads\yo\tp3\LPOOI_GRUPO_07\Vistas\obj\x86\Debug\Vistas.exe
+C:\Users\admin\Downloads\yo\tp3\LPOOI_GRUPO_07\Vistas\obj\x86\Debug\Vistas.pdb
+C:\Users\admin\Downloads\yo\tp3\LPOOI_GRUPO_07\Vistas\bin\Debug\Vistas.exe
+C:\Users\admin\Downloads\yo\tp3\LPOOI_GRUPO_07\Vistas\bin\Debug\Vistas.pdb
+C:\Users\admin\Downloads\yo\tp3\LPOOI_GRUPO_07\Vistas\bin\Debug\ClasesBase.dll
+C:\Users\admin\Downloads\yo\tp3\LPOOI_GRUPO_07\Vistas\bin\Debug\ClasesBase.pdb
+C:\Users\admin\Downloads\yo\tp3\LPOOI_GRUPO_07\Vistas\obj\x86\Debug\Vistas.csprojResolveAssemblyReference.cache
+C:\Users\admin\Downloads\yo\tp3\LPOOI_GRUPO_07\Vistas\obj\x86\Debug\Vistas.FrmABMParticipantes.resources
+C:\Users\admin\Downloads\yo\tp3\LPOOI_GRUPO_07\Vistas\obj\x86\Debug\Vistas.FrmABMUsuario.resources
+C:\Users\admin\Downloads\yo\tp3\LPOOI_GRUPO_07\Vistas\obj\x86\Debug\Vistas.FrmMenu.resources
+C:\Users\admin\Downloads\yo\tp3\LPOOI_GRUPO_07\Vistas\obj\x86\Debug\Vistas.FrmLogin.resources
+C:\Users\admin\Downloads\yo\tp3\LPOOI_GRUPO_07\Vistas\obj\x86\Debug\Vistas.Properties.Resources.resources
+C:\Users\admin\Downloads\yo\tp3\LPOOI_GRUPO_07\Vistas\obj\x86\Debug\Vistas.csproj.GenerateResource.Cache
+C:\Users\admin\Downloads\yo\tp3\LPOOI_GRUPO_07\Vistas\obj\x86\Debug\Vistas.FrmABMCategoria.resources
+C:\Users\admin\Downloads\yo\tp3\LPOOI_GRUPO_07\Vistas\obj\x86\Debug\Vistas.FrmABMDisciplina.resources
+C:\Users\admin\Downloads\yo\tp3\LPOOI_GRUPO_07\Vistas\obj\x86\Debug\Vistas.FrmABMCompetencias.resources
