@@ -279,7 +279,29 @@ namespace ClasesBase
             cmd.ExecuteNonQuery();
             cn.Close();
         }
-    
+        public static DataTable combo_nombreatletas()
+        {
+            SqlConnection cn = new SqlConnection(ClasesBase.Properties.Settings.Default.comdep);
+            SqlCommand cmd = new SqlCommand();
+
+            cmd.CommandText = " SELECT *";
+
+            cmd.CommandText += " FROM Atleta";
+
+            cmd.CommandType = CommandType.Text;
+            cmd.Connection = cn;
+
+            //Ejecuta la consulta
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+
+            //Completa las datos de la consualta en el DataTable 
+            DataTable dt = new DataTable();
+
+
+            da.Fill(dt);
+            dt.Columns.Add("Apellido Nombre", typeof(string), "Atl_ID+ ' ' + Atl_Apellido + ' ' + Atl_Nombre + ' '+Atl_DNI");
+            return dt;
+        }
 
     }
 }

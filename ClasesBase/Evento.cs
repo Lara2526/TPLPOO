@@ -49,5 +49,20 @@ namespace ClasesBase
             get { return eve_HoraFin; }
             set { eve_HoraFin = value; }
         }
+        public enum Estado
+        {
+            INSCRIPTO,
+            ACREDITADO,
+            ANULADO,
+            ABANDONO,
+            DESCALIFICADO,
+            FINALIZADO
+
+        }
+
+        public Evento()
+        {
+
+        }
     }
 }
