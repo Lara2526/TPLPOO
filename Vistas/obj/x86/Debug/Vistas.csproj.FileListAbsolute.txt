@@ -44,3 +44,24 @@ C:\Users\admin\Downloads\yo\tp3\LPOOI_GRUPO_07\Vistas\obj\x86\Debug\Vistas.cspro
 C:\Users\admin\Downloads\yo\tp3\LPOOI_GRUPO_07\Vistas\obj\x86\Debug\Vistas.FrmABMCategoria.resources
 C:\Users\admin\Downloads\yo\tp3\LPOOI_GRUPO_07\Vistas\obj\x86\Debug\Vistas.FrmABMDisciplina.resources
 C:\Users\admin\Downloads\yo\tp3\LPOOI_GRUPO_07\Vistas\obj\x86\Debug\Vistas.FrmABMCompetencias.resources
+E:\Proyecto-C#\Nueva carpeta\TPLPOO\Vistas\bin\Debug\Vistas.exe.config
+E:\Proyecto-C#\Nueva carpeta\TPLPOO\Vistas\bin\Debug\Vistas.exe
+E:\Proyecto-C#\Nueva carpeta\TPLPOO\Vistas\bin\Debug\Vistas.pdb
+E:\Proyecto-C#\Nueva carpeta\TPLPOO\Vistas\bin\Debug\ClasesBase.dll
+E:\Proyecto-C#\Nueva carpeta\TPLPOO\Vistas\bin\Debug\ClasesBase.pdb
+E:\Proyecto-C#\Nueva carpeta\TPLPOO\Vistas\bin\Debug\ClasesBase.dll.config
+E:\Proyecto-C#\Nueva carpeta\TPLPOO\Vistas\obj\x86\Debug\Vistas.csproj.AssemblyReference.cache
+E:\Proyecto-C#\Nueva carpeta\TPLPOO\Vistas\obj\x86\Debug\Vistas.FrmABMCompetencias.resources
+E:\Proyecto-C#\Nueva carpeta\TPLPOO\Vistas\obj\x86\Debug\Vistas.FrmABMParticipantes.resources
+E:\Proyecto-C#\Nueva carpeta\TPLPOO\Vistas\obj\x86\Debug\Vistas.FrmABMResultados.resources
+E:\Proyecto-C#\Nueva carpeta\TPLPOO\Vistas\obj\x86\Debug\Vistas.FrmABMUsuario.resources
+E:\Proyecto-C#\Nueva carpeta\TPLPOO\Vistas\obj\x86\Debug\Vistas.FrmABMCategoria.resources
+E:\Proyecto-C#\Nueva carpeta\TPLPOO\Vistas\obj\x86\Debug\Vistas.FrmABMDisciplina.resources
+E:\Proyecto-C#\Nueva carpeta\TPLPOO\Vistas\obj\x86\Debug\Vistas.FrmMenu.resources
+E:\Proyecto-C#\Nueva carpeta\TPLPOO\Vistas\obj\x86\Debug\Vistas.FrmLogin.resources
+E:\Proyecto-C#\Nueva carpeta\TPLPOO\Vistas\obj\x86\Debug\Vistas.Properties.Resources.resources
+E:\Proyecto-C#\Nueva carpeta\TPLPOO\Vistas\obj\x86\Debug\Vistas.csproj.GenerateResource.cache
+E:\Proyecto-C#\Nueva carpeta\TPLPOO\Vistas\obj\x86\Debug\Vistas.csproj.CoreCompileInputs.cache
+E:\Proyecto-C#\Nueva carpeta\TPLPOO\Vistas\obj\x86\Debug\Vistas.csproj.Up2Date
+E:\Proyecto-C#\Nueva carpeta\TPLPOO\Vistas\obj\x86\Debug\Vistas.exe
+E:\Proyecto-C#\Nueva carpeta\TPLPOO\Vistas\obj\x86\Debug\Vistas.pdb
