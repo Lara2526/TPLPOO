@@ -102,10 +102,10 @@ namespace ClasesBase
         }
         public enum Estado
         {
-            PROGRAMADO,
-            POSTERGADO,
-            REPROGRAMADO,
-            CANCELADO
+            Programdo,
+            Postergado,
+            Reprogramado,
+            Cancelado
         }
     }
 }
