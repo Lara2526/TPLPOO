@@ -44,3 +44,20 @@ C:\Users\admin\Downloads\yo\tp3\LPOOI_GRUPO_07\Vistas\obj\x86\Debug\Vistas.cspro
 C:\Users\admin\Downloads\yo\tp3\LPOOI_GRUPO_07\Vistas\obj\x86\Debug\Vistas.FrmABMCategoria.resources
 C:\Users\admin\Downloads\yo\tp3\LPOOI_GRUPO_07\Vistas\obj\x86\Debug\Vistas.FrmABMDisciplina.resources
 C:\Users\admin\Downloads\yo\tp3\LPOOI_GRUPO_07\Vistas\obj\x86\Debug\Vistas.FrmABMCompetencias.resources
+D:\Datos de descargas\Anto\LPOO1_2024\Proyectos\TPLPOO\Vistas\obj\x86\Debug\Vistas.exe
+D:\Datos de descargas\Anto\LPOO1_2024\Proyectos\TPLPOO\Vistas\obj\x86\Debug\Vistas.pdb
+D:\Datos de descargas\Anto\LPOO1_2024\Proyectos\TPLPOO\Vistas\bin\Debug\Vistas.exe
+D:\Datos de descargas\Anto\LPOO1_2024\Proyectos\TPLPOO\Vistas\bin\Debug\Vistas.pdb
+D:\Datos de descargas\Anto\LPOO1_2024\Proyectos\TPLPOO\Vistas\bin\Debug\ClasesBase.dll
+D:\Datos de descargas\Anto\LPOO1_2024\Proyectos\TPLPOO\Vistas\bin\Debug\ClasesBase.pdb
+D:\Datos de descargas\Anto\LPOO1_2024\Proyectos\TPLPOO\Vistas\obj\x86\Debug\Vistas.csprojResolveAssemblyReference.cache
+D:\Datos de descargas\Anto\LPOO1_2024\Proyectos\TPLPOO\Vistas\obj\x86\Debug\Vistas.FrmABMCompetencias.resources
+D:\Datos de descargas\Anto\LPOO1_2024\Proyectos\TPLPOO\Vistas\obj\x86\Debug\Vistas.FrmABMParticipantes.resources
+D:\Datos de descargas\Anto\LPOO1_2024\Proyectos\TPLPOO\Vistas\obj\x86\Debug\Vistas.FrmABMUsuario.resources
+D:\Datos de descargas\Anto\LPOO1_2024\Proyectos\TPLPOO\Vistas\obj\x86\Debug\Vistas.FrmABMCategoria.resources
+D:\Datos de descargas\Anto\LPOO1_2024\Proyectos\TPLPOO\Vistas\obj\x86\Debug\Vistas.FrmABMDisciplina.resources
+D:\Datos de descargas\Anto\LPOO1_2024\Proyectos\TPLPOO\Vistas\obj\x86\Debug\Vistas.FrmMenu.resources
+D:\Datos de descargas\Anto\LPOO1_2024\Proyectos\TPLPOO\Vistas\obj\x86\Debug\Vistas.FrmLogin.resources
+D:\Datos de descargas\Anto\LPOO1_2024\Proyectos\TPLPOO\Vistas\obj\x86\Debug\Vistas.Properties.Resources.resources
+D:\Datos de descargas\Anto\LPOO1_2024\Proyectos\TPLPOO\Vistas\obj\x86\Debug\Vistas.csproj.GenerateResource.Cache
+D:\Datos de descargas\Anto\LPOO1_2024\Proyectos\TPLPOO\Vistas\obj\x86\Debug\Vistas.FrmCronometraje.resources
