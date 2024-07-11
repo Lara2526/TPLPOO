@@ -41,10 +41,9 @@
             // txtUserName
             // 
             this.txtUserName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtUserName.Location = new System.Drawing.Point(212, 288);
-            this.txtUserName.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtUserName.Location = new System.Drawing.Point(159, 234);
             this.txtUserName.Name = "txtUserName";
-            this.txtUserName.Size = new System.Drawing.Size(220, 30);
+            this.txtUserName.Size = new System.Drawing.Size(166, 26);
             this.txtUserName.TabIndex = 14;
             this.txtUserName.Validated += new System.EventHandler(this.txtUserName_Validated);
             // 
@@ -52,10 +51,9 @@
             // 
             this.pictureBox2.BackgroundImage = global::Vistas.Properties.Resources.candado;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(167, 352);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Location = new System.Drawing.Point(125, 286);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(45, 32);
+            this.pictureBox2.Size = new System.Drawing.Size(34, 26);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 13;
             this.pictureBox2.TabStop = false;
@@ -64,10 +62,9 @@
             // 
             this.pictureBox1.ErrorImage = null;
             this.pictureBox1.Image = global::Vistas.Properties.Resources.usu;
-            this.pictureBox1.Location = new System.Drawing.Point(167, 288);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Location = new System.Drawing.Point(125, 234);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(45, 32);
+            this.pictureBox1.Size = new System.Drawing.Size(34, 26);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 12;
             this.pictureBox1.TabStop = false;
@@ -78,21 +75,19 @@
             this.label3.BackColor = System.Drawing.Color.Black;
             this.label3.Font = new System.Drawing.Font("Verdana", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label3.Location = new System.Drawing.Point(121, 178);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(91, 145);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(355, 36);
+            this.label3.Size = new System.Drawing.Size(274, 29);
             this.label3.TabIndex = 11;
             this.label3.Text = "Bienvenido al Sistema";
             // 
             // txtPassword
             // 
             this.txtPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.txtPassword.Location = new System.Drawing.Point(212, 352);
-            this.txtPassword.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtPassword.Location = new System.Drawing.Point(159, 286);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.PasswordChar = '*';
-            this.txtPassword.Size = new System.Drawing.Size(220, 30);
+            this.txtPassword.Size = new System.Drawing.Size(166, 26);
             this.txtPassword.TabIndex = 10;
             this.txtPassword.Validated += new System.EventHandler(this.txtPassword_Validated);
             // 
@@ -102,10 +97,9 @@
             this.btnIngresar.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnIngresar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnIngresar.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.btnIngresar.Location = new System.Drawing.Point(207, 430);
-            this.btnIngresar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnIngresar.Location = new System.Drawing.Point(155, 349);
             this.btnIngresar.Name = "btnIngresar";
-            this.btnIngresar.Size = new System.Drawing.Size(203, 39);
+            this.btnIngresar.Size = new System.Drawing.Size(152, 32);
             this.btnIngresar.TabIndex = 9;
             this.btnIngresar.Text = "Aceptar";
             this.btnIngresar.UseVisualStyleBackColor = false;
@@ -113,19 +107,19 @@
             // 
             // FrmLogin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Vistas.Properties.Resources.fondo;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(603, 713);
+            this.ClientSize = new System.Drawing.Size(452, 579);
             this.Controls.Add(this.txtUserName);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.btnIngresar);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FrmLogin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             this.Load += new System.EventHandler(this.Login_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

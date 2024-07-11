@@ -121,7 +121,7 @@ namespace ClasesBase
             return eventos.OrderBy(e => e.Eve_HoraFin - e.Eve_HoraInicio).ToList();
         }
 
-        public string ObtenerNombreAtleta(int atletaID)
+        /*public string ObtenerNombreAtleta(int atletaID)
         {
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
@@ -164,7 +164,7 @@ namespace ClasesBase
                 connection.Open();
                 return command.ExecuteScalar()?.ToString() ?? string.Empty;
             }
-        }
+        }*/
 
         public static DataTable buscar_atletas(int sPattern, string sEstado)
         {

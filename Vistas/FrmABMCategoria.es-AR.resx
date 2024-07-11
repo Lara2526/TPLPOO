@@ -118,6 +118,57 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>39, 141</value>
+  </data>
+  <data name="btnLimpiar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="btnLimpiar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 244</value>
+  </data>
+  <data name="btnLimpiar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 32</value>
+  </data>
+  <data name="btnLimpiar.Text" xml:space="preserve">
+    <value>Limpiar</value>
+  </data>
+  <data name="btnAgregar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="btnAgregar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 244</value>
+  </data>
+  <data name="btnAgregar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 32</value>
+  </data>
+  <data name="btnAgregar.Text" xml:space="preserve">
+    <value>Agregar</value>
+  </data>
+  <data name="btnEliminar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="btnEliminar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>167, 282</value>
+  </data>
+  <data name="btnEliminar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 32</value>
+  </data>
+  <data name="btnEliminar.Text" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="btnModificar.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="btnModificar.Location" type="System.Drawing.Point, System.Drawing">
+    <value>75, 282</value>
+  </data>
+  <data name="btnModificar.Size" type="System.Drawing.Size, System.Drawing">
+    <value>91, 32</value>
+  </data>
+  <data name="btnModificar.Text" xml:space="preserve">
+    <value>Modificar</value>
+  </data>
   <data name="imgLogo.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAALsAAAFFCAYAAAC0f5y3AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAO
@@ -1684,5 +1735,9 @@
         q5Ranek+xjLeV+/83a70/sbfJt3Kf/SP/helW/mP/tH/onQr/9E/+l+UbuU/+kf/i9Kt/Ef/6H9RupX/
         6B/9L0q38h/9o/89wez/AOkF06JfOq44AAAAAElFTkSuQmCC
 </value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
   </data>
 </root>

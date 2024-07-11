@@ -131,7 +131,7 @@ namespace Vistas
                 ocom.Dis_ID = (int)cmbDisciplina.SelectedValue;
 
                 ocom.Com_ID = Convert.ToInt32(lbid.Text);
-                TrabajarCompetencias.mosdificar_competencias_SP(ocom);
+                TrabajarCompetencias.modificar_competencias_SP(ocom);
                 cargar_tabla();
                 limpiar();
             }

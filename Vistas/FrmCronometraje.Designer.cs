@@ -301,6 +301,7 @@
             this.Controls.Add(this.btnModificar);
             this.Controls.Add(this.shapeContainer2);
             this.Name = "FrmCronometraje";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmCronometraje";
             this.Load += new System.EventHandler(this.FrmCronometraje_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvAtletas)).EndInit();
