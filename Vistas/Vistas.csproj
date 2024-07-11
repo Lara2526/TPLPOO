@@ -91,6 +91,12 @@
     <Compile Include="FrmABMDisciplina.Designer.cs">
       <DependentUpon>FrmABMDisciplina.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmAnularInscripcion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAnularInscripcion.Designer.cs">
+      <DependentUpon>FrmAnularInscripcion.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmMenu.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -122,6 +128,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmABMDisciplina.resx">
       <DependentUpon>FrmABMDisciplina.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmAnularInscripcion.resx">
+      <DependentUpon>FrmAnularInscripcion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmMenu.resx">
       <DependentUpon>FrmMenu.cs</DependentUpon>

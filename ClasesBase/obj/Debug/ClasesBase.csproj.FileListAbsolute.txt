@@ -16,6 +16,7 @@ C:\Users\admin\Downloads\yo\tp3\LPOOI_GRUPO_07\ClasesBase\bin\Debug\ClasesBase.p
 C:\Users\admin\Downloads\yo\tp3\LPOOI_GRUPO_07\ClasesBase\obj\Debug\ClasesBase.csprojResolveAssemblyReference.cache
 C:\Users\admin\Downloads\yo\tp3\LPOOI_GRUPO_07\ClasesBase\obj\Debug\ClasesBase.dll
 C:\Users\admin\Downloads\yo\tp3\LPOOI_GRUPO_07\ClasesBase\obj\Debug\ClasesBase.pdb
+<<<<<<< HEAD
 E:\Proyecto-C#\Nueva carpeta\TPLPOO\ClasesBase\bin\Debug\ClasesBase.dll.config
 E:\Proyecto-C#\Nueva carpeta\TPLPOO\ClasesBase\bin\Debug\ClasesBase.dll
 E:\Proyecto-C#\Nueva carpeta\TPLPOO\ClasesBase\bin\Debug\ClasesBase.pdb
@@ -23,3 +24,11 @@ E:\Proyecto-C#\Nueva carpeta\TPLPOO\ClasesBase\obj\Debug\ClasesBase.csproj.Assem
 E:\Proyecto-C#\Nueva carpeta\TPLPOO\ClasesBase\obj\Debug\ClasesBase.csproj.CoreCompileInputs.cache
 E:\Proyecto-C#\Nueva carpeta\TPLPOO\ClasesBase\obj\Debug\ClasesBase.dll
 E:\Proyecto-C#\Nueva carpeta\TPLPOO\ClasesBase\obj\Debug\ClasesBase.pdb
+=======
+C:\Prueba\TPLPOO\ClasesBase\bin\Debug\ClasesBase.dll.config
+C:\Prueba\TPLPOO\ClasesBase\bin\Debug\ClasesBase.dll
+C:\Prueba\TPLPOO\ClasesBase\bin\Debug\ClasesBase.pdb
+C:\Prueba\TPLPOO\ClasesBase\obj\Debug\ClasesBase.csprojResolveAssemblyReference.cache
+C:\Prueba\TPLPOO\ClasesBase\obj\Debug\ClasesBase.dll
+C:\Prueba\TPLPOO\ClasesBase\obj\Debug\ClasesBase.pdb
+>>>>>>> main-actualizada
