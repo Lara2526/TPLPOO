@@ -43,6 +43,10 @@
     <Compile Include="Atleta.cs" />
     <Compile Include="Categoria.cs" />
     <Compile Include="Class1.cs" />
+    <Compile Include="comdepDataSet.cs">
+      <DependentUpon>comdepDataSet.xsd</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
     <Compile Include="comdepDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

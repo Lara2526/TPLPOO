@@ -205,5 +205,103 @@ namespace ClasesBase
 
             return dt;
         }
+         public static DataTable Buscar_por_Dni(string participante)
+        {
+            SqlConnection cn = new SqlConnection(ClasesBase.Properties.Settings.Default.comdep);
+            SqlCommand cmd = new SqlCommand();
+
+            cmd.CommandText = " SELECT ";
+            cmd.CommandText += " E.Eve_Estado as 'Estado', ";
+            cmd.CommandText += " C.Com_Nombre as 'Competencia', ";
+            cmd.CommandText += " A.Atl_Nombre as 'Nombre', ";
+            cmd.CommandText += " A.Atl_Apellido as 'Apellido', ";
+            cmd.CommandText += " A.Atl_DNI as 'DNI', ";
+            cmd.CommandText += " A.Atl_ID as 'ID Atleta', ";
+            cmd.CommandText += " E.Eve_ID as 'ID Evento' ";
+            cmd.CommandText += " FROM Evento as E";
+            cmd.CommandText += " LEFT JOIN Atleta as A ON (A.Atl_ID=E.Atl_ID)"; //condicion de relacion
+            cmd.CommandText += " LEFT JOIN Competencia as C ON(C.Com_ID=E.Com_ID)";
+            cmd.CommandText += "WHERE A.Atl_DNI=@participante";
+            cmd.Parameters.AddWithValue("@participante", participante);
+
+            cmd.CommandType = CommandType.Text;
+            cmd.Connection = cn;
+
+            //Ejecuta la consulta
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+
+            //Completa las datos de la consualta en el DataTable 
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            return dt;
+        }
+        public static DataTable Buscar_por_Id(string participante)
+        {
+            SqlConnection cn = new SqlConnection(ClasesBase.Properties.Settings.Default.comdep);
+            SqlCommand cmd = new SqlCommand();
+
+            cmd.CommandText = " SELECT ";
+            cmd.CommandText += " E.Eve_Estado as 'Estado', ";
+            cmd.CommandText += " C.Com_Nombre as 'Competencia', ";
+            cmd.CommandText += " A.Atl_Nombre as 'Nombre', ";
+            cmd.CommandText += " A.Atl_Apellido as 'Apellido', ";
+            cmd.CommandText += " A.Atl_DNI as 'DNI', ";
+            cmd.CommandText += " A.Atl_ID as 'ID Atleta', ";
+            cmd.CommandText += " E.Eve_ID as 'ID Evento' ";
+            cmd.CommandText += " FROM Evento as E";
+            cmd.CommandText += " LEFT JOIN Atleta as A ON (A.Atl_ID=E.Atl_ID)"; //condicion de relacion
+            cmd.CommandText += " LEFT JOIN Competencia as C ON(C.Com_ID=E.Com_ID)";
+            cmd.CommandText += "WHERE A.Atl_ID=@participante";
+            cmd.Parameters.AddWithValue("@participante", participante);
+
+            cmd.CommandType = CommandType.Text;
+            cmd.Connection = cn;
+
+            //Ejecuta la consulta
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+
+            //Completa las datos de la consualta en el DataTable 
+            DataTable dt = new DataTable();
+            da.Fill(dt);
+            return dt;
+        }
+        public static void AnularInscripcion(int Id) {
+             SqlConnection cn = new SqlConnection(ClasesBase.Properties.Settings.Default.comdep);
+            SqlCommand cmd = new SqlCommand();
+            cmd.CommandText = "ModificarInscripcionEvento";
+
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.Connection = cn;
+
+            cmd.Parameters.AddWithValue("@id", Id);
+            
+            cn.Open();
+            cmd.ExecuteNonQuery();
+            cn.Close();
+        }
+        public static DataTable combo_nombreatletas()
+        {
+            SqlConnection cn = new SqlConnection(ClasesBase.Properties.Settings.Default.comdep);
+            SqlCommand cmd = new SqlCommand();
+
+            cmd.CommandText = " SELECT *";
+
+            cmd.CommandText += " FROM Atleta";
+
+            cmd.CommandType = CommandType.Text;
+            cmd.Connection = cn;
+
+            //Ejecuta la consulta
+            SqlDataAdapter da = new SqlDataAdapter(cmd);
+
+            //Completa las datos de la consualta en el DataTable 
+            DataTable dt = new DataTable();
+
+
+            da.Fill(dt);
+            dt.Columns.Add("Apellido Nombre", typeof(string), "Atl_ID+ ' ' + Atl_Apellido + ' ' + Atl_Nombre + ' '+Atl_DNI");
+            return dt;
+        }
+
     }
 }
