@@ -35,9 +35,9 @@ namespace Vistas
                }
              ).ToList();
 
-            lblParticipantes.Text = eventos.Count.ToString();
-            lblAbandonos.Text = eventos.Count(ev => ev.Eve_Estado == "Abandono").ToString();
-            lblDescalificados.Text = eventos.Count(ev => ev.Eve_Estado == "Descalificados").ToString();
+            lblParticipantes.Text = String.Format("Participantes: {0}", eventos.Count);
+            lblAbandonos.Text = String.Format("Abandonos: {0}", eventos.Count(ev => ev.Eve_Estado == "Abandono"));
+            lblDescalificados.Text = String.Format("Descalificados: {0}", eventos.Count(ev => ev.Eve_Estado == "Descalificados"));
         }
     }
 }
