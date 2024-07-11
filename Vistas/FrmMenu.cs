@@ -84,5 +84,11 @@ namespace Vistas
             FrmABMCompetencias ofrmCompetencias = new FrmABMCompetencias();
             ofrmCompetencias.Show();
         }
+
+        private void cronometrajeToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmCronometraje ofrmCronometraje = new FrmCronometraje();
+            ofrmCronometraje.Show();
+        }
     }
 }

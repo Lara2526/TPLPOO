@@ -68,6 +68,7 @@
     <Compile Include="TrabajarCompetencias.cs" />
     <Compile Include="TrabajarDisciplina.cs" />
     <Compile Include="TrabajarUsuario.cs" />
+    <Compile Include="Trabajar_Evento.cs" />
     <Compile Include="Usuario.cs" />
   </ItemGroup>
   <ItemGroup>
