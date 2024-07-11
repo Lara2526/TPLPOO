@@ -131,6 +131,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmABMCategoria.es-AR.resx">
+      <DependentUpon>FrmABMCategoria.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmABMCompetencias.resx">
       <DependentUpon>FrmABMCompetencias.cs</DependentUpon>
     </EmbeddedResource>

@@ -80,3 +80,6 @@ D:\Datos de descargas\Anto\LPOO1_2024\Proyectos\TPLPOO\Vistas\bin\Debug\Vistas.e
 D:\Datos de descargas\Anto\LPOO1_2024\Proyectos\TPLPOO\Vistas\bin\Debug\Vistas.pdb
 D:\Datos de descargas\Anto\LPOO1_2024\Proyectos\TPLPOO\Vistas\bin\Debug\ClasesBase.dll
 D:\Datos de descargas\Anto\LPOO1_2024\Proyectos\TPLPOO\Vistas\bin\Debug\ClasesBase.pdb
+D:\Datos de descargas\Anto\LPOO1_2024\Proyectos\TPLPOO\Vistas\bin\Debug\es-AR\Vistas.resources.dll
+D:\Datos de descargas\Anto\LPOO1_2024\Proyectos\TPLPOO\Vistas\obj\x86\Debug\Vistas.FrmABMCategoria.es-AR.resources
+D:\Datos de descargas\Anto\LPOO1_2024\Proyectos\TPLPOO\Vistas\obj\x86\Debug\es-AR\Vistas.resources.dll

@@ -90,5 +90,19 @@ namespace Vistas
             FrmCronometraje ofrmCronometraje = new FrmCronometraje();
             ofrmCronometraje.Show();
         }
+
+        private void incripciónToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmInscripcionEvento ofrmInscripcion = new FrmInscripcionEvento();
+            ofrmInscripcion.Show();
+        }
+
+        private void anularIncripciónToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmAnularInscripcion ofrmAnular = new FrmAnularInscripcion();
+            ofrmAnular.Show();
+        }
+
+
     }
 }

@@ -370,11 +370,11 @@
             this.lblTitulo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.lblTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitulo.ForeColor = System.Drawing.Color.White;
-            this.lblTitulo.Location = new System.Drawing.Point(315, 9);
+            this.lblTitulo.Location = new System.Drawing.Point(306, 9);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(262, 37);
+            this.lblTitulo.Size = new System.Drawing.Size(284, 37);
             this.lblTitulo.TabIndex = 111;
-            this.lblTitulo.Text = "COMPETENCIA";
+            this.lblTitulo.Text = "COMPETENCIAS";
             // 
             // lblLPOOI
             // 

@@ -182,10 +182,12 @@
             // 
             // btnGrabar
             // 
-            this.btnGrabar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.btnGrabar.Location = new System.Drawing.Point(488, 148);
+            this.btnGrabar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnGrabar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGrabar.ForeColor = System.Drawing.Color.White;
+            this.btnGrabar.Location = new System.Drawing.Point(487, 146);
             this.btnGrabar.Name = "btnGrabar";
-            this.btnGrabar.Size = new System.Drawing.Size(75, 23);
+            this.btnGrabar.Size = new System.Drawing.Size(91, 32);
             this.btnGrabar.TabIndex = 16;
             this.btnGrabar.Text = "Grabar";
             this.btnGrabar.UseVisualStyleBackColor = false;
@@ -193,10 +195,12 @@
             // 
             // btnModificar
             // 
-            this.btnModificar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.btnModificar.Location = new System.Drawing.Point(488, 146);
+            this.btnModificar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnModificar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnModificar.ForeColor = System.Drawing.Color.White;
+            this.btnModificar.Location = new System.Drawing.Point(487, 146);
             this.btnModificar.Name = "btnModificar";
-            this.btnModificar.Size = new System.Drawing.Size(75, 23);
+            this.btnModificar.Size = new System.Drawing.Size(91, 32);
             this.btnModificar.TabIndex = 17;
             this.btnModificar.Text = "Modificar";
             this.btnModificar.UseVisualStyleBackColor = false;
@@ -204,21 +208,24 @@
             // 
             // btnDescalificado
             // 
-            this.btnDescalificado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.btnDescalificado.Location = new System.Drawing.Point(687, 336);
+            this.btnDescalificado.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnDescalificado.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDescalificado.ForeColor = System.Drawing.Color.White;
+            this.btnDescalificado.Location = new System.Drawing.Point(687, 318);
             this.btnDescalificado.Name = "btnDescalificado";
-            this.btnDescalificado.Size = new System.Drawing.Size(84, 23);
+            this.btnDescalificado.Size = new System.Drawing.Size(91, 32);
             this.btnDescalificado.TabIndex = 18;
-            this.btnDescalificado.Text = "Descalificado";
-            this.btnDescalificado.UseVisualStyleBackColor = false;
+            this.btnDescalificado.Text = "Descalificar";
             this.btnDescalificado.Click += new System.EventHandler(this.btnDescalificado_Click);
             // 
             // btnAbandono
             // 
-            this.btnAbandono.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.btnAbandono.Location = new System.Drawing.Point(687, 359);
+            this.btnAbandono.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnAbandono.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnAbandono.ForeColor = System.Drawing.Color.White;
+            this.btnAbandono.Location = new System.Drawing.Point(687, 352);
             this.btnAbandono.Name = "btnAbandono";
-            this.btnAbandono.Size = new System.Drawing.Size(84, 23);
+            this.btnAbandono.Size = new System.Drawing.Size(91, 32);
             this.btnAbandono.TabIndex = 19;
             this.btnAbandono.Text = "Abandonó";
             this.btnAbandono.UseVisualStyleBackColor = false;
@@ -226,10 +233,12 @@
             // 
             // btnGuardar
             // 
-            this.btnGuardar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
-            this.btnGuardar.Location = new System.Drawing.Point(687, 312);
+            this.btnGuardar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.btnGuardar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnGuardar.ForeColor = System.Drawing.Color.White;
+            this.btnGuardar.Location = new System.Drawing.Point(687, 284);
             this.btnGuardar.Name = "btnGuardar";
-            this.btnGuardar.Size = new System.Drawing.Size(84, 23);
+            this.btnGuardar.Size = new System.Drawing.Size(91, 32);
             this.btnGuardar.TabIndex = 20;
             this.btnGuardar.Text = "Guardar";
             this.btnGuardar.UseVisualStyleBackColor = false;

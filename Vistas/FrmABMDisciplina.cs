@@ -113,7 +113,6 @@ namespace Vistas
                            // MessageBox.Show(ms,"No Se encontro",MessageBoxButtons.OK, MessageBoxIcon.Warning);
                         
         }
-
         
     }
 }

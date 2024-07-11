@@ -63,7 +63,7 @@ namespace Vistas
             }
             else
             {
-                MessageBox.Show("Error ", "No selecciono ninguna opcion", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("No seleccionó ninguna opción", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
 
         }

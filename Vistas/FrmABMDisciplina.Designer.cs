@@ -180,11 +180,11 @@
             this.lblTitulo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.lblTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTitulo.ForeColor = System.Drawing.Color.White;
-            this.lblTitulo.Location = new System.Drawing.Point(339, 9);
+            this.lblTitulo.Location = new System.Drawing.Point(330, 9);
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(203, 37);
+            this.lblTitulo.Size = new System.Drawing.Size(225, 37);
             this.lblTitulo.TabIndex = 103;
-            this.lblTitulo.Text = "DISCIPLINA";
+            this.lblTitulo.Text = "DISCIPLINAS";
             // 
             // lblLPOOI
             // 
