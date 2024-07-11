@@ -50,7 +50,7 @@
             // cmbCompetencia
             // 
             this.cmbCompetencia.FormattingEnabled = true;
-            this.cmbCompetencia.Location = new System.Drawing.Point(169, 187);
+            this.cmbCompetencia.Location = new System.Drawing.Point(460, 85);
             this.cmbCompetencia.Name = "cmbCompetencia";
             this.cmbCompetencia.Size = new System.Drawing.Size(162, 21);
             this.cmbCompetencia.TabIndex = 110;
@@ -58,7 +58,7 @@
             // cmbParticipante
             // 
             this.cmbParticipante.FormattingEnabled = true;
-            this.cmbParticipante.Location = new System.Drawing.Point(169, 151);
+            this.cmbParticipante.Location = new System.Drawing.Point(137, 85);
             this.cmbParticipante.Name = "cmbParticipante";
             this.cmbParticipante.Size = new System.Drawing.Size(162, 21);
             this.cmbParticipante.TabIndex = 109;
@@ -68,7 +68,7 @@
             this.btnAgregar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
             this.btnAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgregar.ForeColor = System.Drawing.Color.White;
-            this.btnAgregar.Location = new System.Drawing.Point(169, 248);
+            this.btnAgregar.Location = new System.Drawing.Point(666, 85);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(91, 32);
             this.btnAgregar.TabIndex = 108;
@@ -92,7 +92,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(50, 185);
+            this.label3.Location = new System.Drawing.Point(351, 83);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(103, 20);
             this.label3.TabIndex = 106;
@@ -103,7 +103,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(60, 149);
+            this.label2.Location = new System.Drawing.Point(38, 83);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(93, 20);
             this.label2.TabIndex = 105;
@@ -112,9 +112,9 @@
             // dgvEvento
             // 
             this.dgvEvento.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvEvento.Location = new System.Drawing.Point(373, 106);
+            this.dgvEvento.Location = new System.Drawing.Point(42, 137);
             this.dgvEvento.Name = "dgvEvento";
-            this.dgvEvento.Size = new System.Drawing.Size(401, 146);
+            this.dgvEvento.Size = new System.Drawing.Size(818, 280);
             this.dgvEvento.TabIndex = 111;
             // 
             // recCabecera
