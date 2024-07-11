@@ -63,7 +63,7 @@ namespace ClasesBase
                 command.Parameters.AddWithValue("@AtletaID", atletaID);
 
                 connection.Open();
-                return command.ExecuteScalar()?.ToString() ?? string.Empty;
+                return command.ExecuteScalar().ToString() ?? string.Empty;
             }
         }
 
@@ -78,7 +78,7 @@ namespace ClasesBase
                 command.Parameters.AddWithValue("@AtletaID", atletaID);
 
                 connection.Open();
-                return command.ExecuteScalar()?.ToString() ?? string.Empty;
+                return command.ExecuteScalar().ToString() ?? string.Empty;
             }
         }
 
@@ -93,7 +93,7 @@ namespace ClasesBase
                 command.Parameters.AddWithValue("@CompetenciaID", competenciaID);
 
                 connection.Open();
-                return command.ExecuteScalar()?.ToString() ?? string.Empty;
+                return command.ExecuteScalar().ToString() ?? string.Empty;
             }
         }
 

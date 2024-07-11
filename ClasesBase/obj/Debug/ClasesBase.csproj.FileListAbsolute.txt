@@ -22,3 +22,9 @@ D:\Datos de descargas\Anto\LPOO1_2024\Proyectos\TPLPOO\ClasesBase\bin\Debug\Clas
 D:\Datos de descargas\Anto\LPOO1_2024\Proyectos\TPLPOO\ClasesBase\obj\Debug\ClasesBase.csprojResolveAssemblyReference.cache
 D:\Datos de descargas\Anto\LPOO1_2024\Proyectos\TPLPOO\ClasesBase\obj\Debug\ClasesBase.dll
 D:\Datos de descargas\Anto\LPOO1_2024\Proyectos\TPLPOO\ClasesBase\obj\Debug\ClasesBase.pdb
+E:\App-C#-VB.NET\TPLPOO\ClasesBase\bin\Debug\ClasesBase.dll.config
+E:\App-C#-VB.NET\TPLPOO\ClasesBase\bin\Debug\ClasesBase.dll
+E:\App-C#-VB.NET\TPLPOO\ClasesBase\bin\Debug\ClasesBase.pdb
+E:\App-C#-VB.NET\TPLPOO\ClasesBase\obj\Debug\ClasesBase.csprojResolveAssemblyReference.cache
+E:\App-C#-VB.NET\TPLPOO\ClasesBase\obj\Debug\ClasesBase.dll
+E:\App-C#-VB.NET\TPLPOO\ClasesBase\obj\Debug\ClasesBase.pdb

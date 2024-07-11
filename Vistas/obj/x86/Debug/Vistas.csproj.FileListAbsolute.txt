@@ -61,3 +61,21 @@ D:\Datos de descargas\Anto\LPOO1_2024\Proyectos\TPLPOO\Vistas\obj\x86\Debug\Vist
 D:\Datos de descargas\Anto\LPOO1_2024\Proyectos\TPLPOO\Vistas\obj\x86\Debug\Vistas.Properties.Resources.resources
 D:\Datos de descargas\Anto\LPOO1_2024\Proyectos\TPLPOO\Vistas\obj\x86\Debug\Vistas.csproj.GenerateResource.Cache
 D:\Datos de descargas\Anto\LPOO1_2024\Proyectos\TPLPOO\Vistas\obj\x86\Debug\Vistas.FrmCronometraje.resources
+E:\App-C#-VB.NET\TPLPOO\Vistas\obj\x86\Debug\Vistas.exe
+E:\App-C#-VB.NET\TPLPOO\Vistas\obj\x86\Debug\Vistas.pdb
+E:\App-C#-VB.NET\TPLPOO\Vistas\bin\Debug\Vistas.exe
+E:\App-C#-VB.NET\TPLPOO\Vistas\bin\Debug\Vistas.pdb
+E:\App-C#-VB.NET\TPLPOO\Vistas\bin\Debug\ClasesBase.dll
+E:\App-C#-VB.NET\TPLPOO\Vistas\bin\Debug\ClasesBase.pdb
+E:\App-C#-VB.NET\TPLPOO\Vistas\obj\x86\Debug\Vistas.csprojResolveAssemblyReference.cache
+E:\App-C#-VB.NET\TPLPOO\Vistas\obj\x86\Debug\Vistas.FrmABMCompetencias.resources
+E:\App-C#-VB.NET\TPLPOO\Vistas\obj\x86\Debug\Vistas.FrmABMParticipantes.resources
+E:\App-C#-VB.NET\TPLPOO\Vistas\obj\x86\Debug\Vistas.FrmABMUsuario.resources
+E:\App-C#-VB.NET\TPLPOO\Vistas\obj\x86\Debug\Vistas.FrmABMCategoria.resources
+E:\App-C#-VB.NET\TPLPOO\Vistas\obj\x86\Debug\Vistas.FrmABMDisciplina.resources
+E:\App-C#-VB.NET\TPLPOO\Vistas\obj\x86\Debug\Vistas.FrmCronometraje.resources
+E:\App-C#-VB.NET\TPLPOO\Vistas\obj\x86\Debug\Vistas.FrmMenu.resources
+E:\App-C#-VB.NET\TPLPOO\Vistas\obj\x86\Debug\Vistas.FrmLogin.resources
+E:\App-C#-VB.NET\TPLPOO\Vistas\obj\x86\Debug\Vistas.FrmResultados.resources
+E:\App-C#-VB.NET\TPLPOO\Vistas\obj\x86\Debug\Vistas.Properties.Resources.resources
+E:\App-C#-VB.NET\TPLPOO\Vistas\obj\x86\Debug\Vistas.csproj.GenerateResource.Cache
