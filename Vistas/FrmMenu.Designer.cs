@@ -28,9 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMenu));
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
             this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.competenciasMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aBMCompetenciasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.participantesMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ABMParticipanteMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.eventosMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -41,7 +43,7 @@
             this.usuarioMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.abmUsuarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.aBMCompetenciasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.cronometrajeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -78,6 +80,13 @@
             this.competenciasMenuItem.Size = new System.Drawing.Size(95, 20);
             this.competenciasMenuItem.Text = "Competencias";
             // 
+            // aBMCompetenciasToolStripMenuItem
+            // 
+            this.aBMCompetenciasToolStripMenuItem.Name = "aBMCompetenciasToolStripMenuItem";
+            this.aBMCompetenciasToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
+            this.aBMCompetenciasToolStripMenuItem.Text = "ABM Competencias";
+            this.aBMCompetenciasToolStripMenuItem.Click += new System.EventHandler(this.aBMCompetenciasToolStripMenuItem_Click);
+            // 
             // participantesMenuItem
             // 
             this.participantesMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -95,6 +104,8 @@
             // 
             // eventosMenuItem
             // 
+            this.eventosMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.cronometrajeToolStripMenuItem});
             this.eventosMenuItem.Name = "eventosMenuItem";
             this.eventosMenuItem.Size = new System.Drawing.Size(60, 20);
             this.eventosMenuItem.Text = "Eventos";
@@ -146,7 +157,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Vistas.Properties.Resources.logo;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(96, 27);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(376, 317);
@@ -154,12 +165,12 @@
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
-            // aBMCompetenciasToolStripMenuItem
+            // cronometrajeToolStripMenuItem
             // 
-            this.aBMCompetenciasToolStripMenuItem.Name = "aBMCompetenciasToolStripMenuItem";
-            this.aBMCompetenciasToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
-            this.aBMCompetenciasToolStripMenuItem.Text = "ABM Competencias";
-            this.aBMCompetenciasToolStripMenuItem.Click += new System.EventHandler(this.aBMCompetenciasToolStripMenuItem_Click);
+            this.cronometrajeToolStripMenuItem.Name = "cronometrajeToolStripMenuItem";
+            this.cronometrajeToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.cronometrajeToolStripMenuItem.Text = "Cronometraje";
+            this.cronometrajeToolStripMenuItem.Click += new System.EventHandler(this.cronometrajeToolStripMenuItem_Click);
             // 
             // FrmMenu
             // 
@@ -196,5 +207,6 @@
         private System.Windows.Forms.ToolStripMenuItem usuarioMenuItem;
         private System.Windows.Forms.ToolStripMenuItem abmUsuarioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aBMCompetenciasToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem cronometrajeToolStripMenuItem;
     }
 }
