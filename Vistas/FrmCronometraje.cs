@@ -129,23 +129,14 @@ namespace Vistas
                 // Verificar que la fila no sea la fila de nueva entrada
                 if (!row.IsNewRow)
                 {
-                    Evento eventoRow = new Evento();
                     // Leer los datos de cada columna de la fila
-                    var idEvento = row.Cells["IDEvento"].Value;
-                    var idAtleta = row.Cells["IDAtleta"].Value;
-                    var estado = row.Cells["Estado"].Value;
-                    var horafin = row.Cells["HoraFin"].Value;
+                    int idEvento = (int)row.Cells["IDEvento"].Value;
+                    DateTime horafin = (DateTime)row.Cells["HoraFin"].Value;
 
                     if (idEvento.ToString().Length > 0)
                     {
-                        eventoRow.Eve_ID = (int)idEvento;
-                        eventoRow.Atl_ID = (int)idAtleta;
-                        eventoRow.Com_ID = (int)cmbCompetencias.SelectedValue;
-                        eventoRow.Eve_HoraInicio = dtpInicio.Value;
-                        eventoRow.Eve_HoraFin = (DateTime)horafin;
-                        eventoRow.Eve_Estado = "Finalizado";
-
-                        Trabajar_Evento.modificarEvento(eventoRow);
+                        Trabajar_Evento.modificarEstadoEvento(idEvento, "FINALIZADO");
+                        Trabajar_Evento.modificarHoraFinEvento(idEvento, horafin);
 
                         MessageBox.Show("Datos guardados.");
                         cargar_tabla();
@@ -170,68 +161,31 @@ namespace Vistas
 
         private void btnDescalificado_Click(object sender, EventArgs e)
         {
-            if (selectedRowIndex >= 0 && selectedRowIndex < dgvAtletas.Rows.Count)
+            if (dgvAtletas.CurrentRow != null)
             {
-                DataGridViewRow selectedRow = dgvAtletas.Rows[selectedRowIndex];
-
-                Evento eventoDescalificado = new Evento();
-                var idEvento = selectedRow.Cells["IDEvento"].Value;
-                var idAtleta = selectedRow.Cells["IDAtleta"].Value;
-                var horafin = selectedRow.Cells["Horafin"].Value;
-
-                if (idEvento.ToString().Length > 0)
-                {
-                    eventoDescalificado.Eve_ID = (int)idEvento;
-                    eventoDescalificado.Atl_ID = (int)idAtleta;
-                    eventoDescalificado.Com_ID = (int)cmbCompetencias.SelectedValue;
-                    eventoDescalificado.Eve_HoraInicio = dtpInicio.Value;
-                    eventoDescalificado.Eve_HoraFin = (DateTime)horafin;
-                    eventoDescalificado.Eve_Estado  = "Descalificado";
-
-                    Trabajar_Evento.modificarEvento(eventoDescalificado);
-                }
-                else
-                {
-                    MessageBox.Show("La fila seleccionada no tiene datos .Por favor, selecciona una fila válida.");
-                }
+                int id_evento = int.Parse(dgvAtletas.CurrentRow.Cells["IDEvento"].Value.ToString());
+                Trabajar_Evento.modificarEstadoEvento(id_evento, "DESCALIFICADO");
+                MessageBox.Show("Registro actualizado");
+                cargar_tabla();
             }
             else
             {
-                MessageBox.Show("Por favor, selecciona una fila válida.");
+                MessageBox.Show("Error ", "No selecciono ninguna Atleta", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
         private void btnAbandono_Click(object sender, EventArgs e)
         {
-            if (selectedRowIndex >= 0 && selectedRowIndex < dgvAtletas.Rows.Count)
+            if (dgvAtletas.CurrentRow != null)
             {
-                DataGridViewRow selectedRow = dgvAtletas.Rows[selectedRowIndex];
-
-                Evento eventoAbandonado = new Evento();
-                // Ejemplo de cómo acceder a los datos de la fila seleccionada
-                var idEvento = selectedRow.Cells["IDEvento"].Value;
-                var idAtleta = selectedRow.Cells["IDAtleta"].Value;
-                var horafin = selectedRow.Cells["Horafin"].Value;
-
-                if(idEvento.ToString().Length > 0)
-                {
-                    eventoAbandonado.Eve_ID = (int)idEvento;
-                    eventoAbandonado.Atl_ID = (int)idAtleta;
-                    eventoAbandonado.Com_ID = (int)cmbCompetencias.SelectedValue;
-                    eventoAbandonado.Eve_HoraInicio = dtpInicio.Value;
-                    eventoAbandonado.Eve_HoraFin = (DateTime)horafin;
-                    eventoAbandonado.Eve_Estado = "Abandonado";
-
-                    Trabajar_Evento.modificarEvento(eventoAbandonado );
-                }
-                else
-                {
-                    MessageBox.Show("La fila seleccionada no tiene datos .Por favor, selecciona una fila válida.");
-                }
+                int id_evento = int.Parse(dgvAtletas.CurrentRow.Cells["IDEvento"].Value.ToString());
+                Trabajar_Evento.modificarEstadoEvento(id_evento, "ABANDONO");
+                MessageBox.Show("Registro actualizado");
+                cargar_tabla();
             }
             else
             {
-                MessageBox.Show("Por favor, selecciona una fila válida.");
+                MessageBox.Show("Error ", "No seleccionó ningún Atleta", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 

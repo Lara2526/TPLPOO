@@ -24,7 +24,7 @@ namespace Vistas
                 {
                     int ID = int.Parse(dgvAtleta.CurrentRow.Cells["ID Evento"].Value.ToString());
                     TrabajarAtleta.AnularInscripcion(ID);
-                    MessageBox.Show("Inscripcion Anulada");
+                    MessageBox.Show("Inscripción Anulada");
                     string participante = txtbuscarParticipante.Text;
 
                     if (rbtnOrdenadoporDNI.Checked == true)
@@ -37,15 +37,15 @@ namespace Vistas
                     }
                     else
                     {
-                        MessageBox.Show("Error ", "No selecciono ninguna opcion", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show("Error ", "No seleccionó ninguna opción", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 }
-                else { MessageBox.Show("Esta Inscripcion se encuentra Anulada ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error); }
+                else { MessageBox.Show("Esta inscripción se encuentra Anulada ", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error); }
             }
 
             else
             {
-                MessageBox.Show("Error ", "No selecciono ninguna Atleta", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Error ", "No seleccionó ningún Atleta", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
@@ -65,6 +65,11 @@ namespace Vistas
             {
                 MessageBox.Show("No seleccionó ninguna opción", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+
+        }
+
+        private void FrmAnularInscripcion_Load(object sender, EventArgs e)
+        {
 
         }
     }

@@ -239,5 +239,47 @@ namespace ClasesBase
             cmd.ExecuteNonQuery();
             cnn.Close();
         }
+
+        public static void modificarEstadoEvento(int id, string estado)
+        {
+            SqlConnection cnn = new SqlConnection(ClasesBase.Properties.Settings.Default.comdep);
+            SqlCommand cmd = new SqlCommand();
+            cmd.CommandType = System.Data.CommandType.Text;
+
+            cmd.CommandText = " UPDATE Evento";
+            cmd.CommandText += " SET eve_Estado = @sEstado";
+            cmd.CommandText += " WHERE eve_ID LIKE @modificarId";
+
+            cmd.Parameters.AddWithValue("@sEstado", estado);
+            cmd.Parameters.AddWithValue("@modificarId", id);
+
+            cmd.CommandType = CommandType.Text;
+            cmd.Connection = cnn;
+
+            cnn.Open();
+            cmd.ExecuteNonQuery();
+            cnn.Close();
+        }
+
+        public static void modificarHoraFinEvento(int id, DateTime horaFin)
+        {
+            SqlConnection cnn = new SqlConnection(ClasesBase.Properties.Settings.Default.comdep);
+            SqlCommand cmd = new SqlCommand();
+            cmd.CommandType = System.Data.CommandType.Text;
+
+            cmd.CommandText = " UPDATE Evento";
+            cmd.CommandText += " SET eve_HoraFin = @eve_HoraFin";
+            cmd.CommandText += " WHERE eve_ID LIKE @modificarId";
+
+            cmd.Parameters.AddWithValue("@eve_HoraFin", horaFin);
+            cmd.Parameters.AddWithValue("@modificarId", id);
+
+            cmd.CommandType = CommandType.Text;
+            cmd.Connection = cnn;
+
+            cnn.Open();
+            cmd.ExecuteNonQuery();
+            cnn.Close();
+        }
     }
 }

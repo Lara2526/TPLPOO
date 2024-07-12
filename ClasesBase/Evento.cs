@@ -49,7 +49,7 @@ namespace ClasesBase
             get { return eve_HoraFin; }
             set { eve_HoraFin = value; }
         }
-        public enum Estado
+        public enum EstadoEventos
         {
             INSCRIPTO,
             ACREDITADO,

@@ -218,6 +218,7 @@
             this.Name = "FrmResultadosEvento";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmResultadosEvento";
+            this.Load += new System.EventHandler(this.FrmResultadosEvento_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dvgResultados)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgLogo)).EndInit();
             this.ResumeLayout(false);

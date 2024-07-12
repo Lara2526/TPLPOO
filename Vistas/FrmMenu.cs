@@ -97,16 +97,22 @@ namespace Vistas
             ofrmInscripcion.Show();
         }
 
-        private void anularIncripciónToolStripMenuItem_Click(object sender, EventArgs e)
+        private void resultadosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmResultadosEvento ofrmResultado = new FrmResultadosEvento();
+            ofrmResultado.Show();
+        }
+
+        private void anularToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FrmAnularInscripcion ofrmAnular = new FrmAnularInscripcion();
             ofrmAnular.Show();
         }
 
-        private void resultadosToolStripMenuItem_Click(object sender, EventArgs e)
+        private void acreditarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FrmResultadosEvento ofrmResultado = new FrmResultadosEvento();
-            ofrmResultado.Show();
+            FrmAcreditar ofrmAcreditar = new FrmAcreditar();
+            ofrmAcreditar.Show();
         }
 
 

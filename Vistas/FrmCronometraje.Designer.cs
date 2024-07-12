@@ -216,6 +216,7 @@
             this.btnDescalificado.Size = new System.Drawing.Size(91, 32);
             this.btnDescalificado.TabIndex = 18;
             this.btnDescalificado.Text = "Descalificar";
+            this.btnDescalificado.UseVisualStyleBackColor = false;
             this.btnDescalificado.Click += new System.EventHandler(this.btnDescalificado_Click);
             // 
             // btnAbandono
@@ -273,6 +274,7 @@
             this.recCabecera.Location = new System.Drawing.Point(0, 0);
             this.recCabecera.Name = "recCabecera";
             this.recCabecera.Size = new System.Drawing.Size(885, 50);
+            this.recCabecera.Click += new System.EventHandler(this.recCabecera_Click);
             // 
             // imgLogo
             // 
