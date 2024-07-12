@@ -34,7 +34,7 @@
             this.lblParticipantes = new System.Windows.Forms.Label();
             this.lblAbandonos = new System.Windows.Forms.Label();
             this.lblDescalificados = new System.Windows.Forms.Label();
-            this.txtCompetenciaID = new System.Windows.Forms.TextBox();
+            this.txtCompetenciaNombre = new System.Windows.Forms.TextBox();
             this.recCabecera = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
             this.recFooter = new Microsoft.VisualBasic.PowerPacks.RectangleShape();
             this.shapeContainer1 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
@@ -101,12 +101,12 @@
             this.lblDescalificados.TabIndex = 4;
             this.lblDescalificados.Text = "Descalificados:";
             // 
-            // txtCompetenciaID
+            // txtCompetenciaNombre
             // 
-            this.txtCompetenciaID.Location = new System.Drawing.Point(216, 92);
-            this.txtCompetenciaID.Name = "txtCompetenciaID";
-            this.txtCompetenciaID.Size = new System.Drawing.Size(327, 20);
-            this.txtCompetenciaID.TabIndex = 5;
+            this.txtCompetenciaNombre.Location = new System.Drawing.Point(216, 92);
+            this.txtCompetenciaNombre.Name = "txtCompetenciaNombre";
+            this.txtCompetenciaNombre.Size = new System.Drawing.Size(327, 20);
+            this.txtCompetenciaNombre.TabIndex = 5;
             // 
             // recCabecera
             // 
@@ -193,9 +193,9 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(216, 69);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(227, 20);
+            this.label2.Size = new System.Drawing.Size(264, 20);
             this.label2.TabIndex = 106;
-            this.label2.Text = "Buscar por ID de Competencia";
+            this.label2.Text = "Buscar por nombre de Competencia";
             // 
             // FrmResultadosEvento
             // 
@@ -208,7 +208,7 @@
             this.Controls.Add(this.lblGrupo07);
             this.Controls.Add(this.lblTitulo);
             this.Controls.Add(this.lblLPOOI);
-            this.Controls.Add(this.txtCompetenciaID);
+            this.Controls.Add(this.txtCompetenciaNombre);
             this.Controls.Add(this.lblDescalificados);
             this.Controls.Add(this.lblAbandonos);
             this.Controls.Add(this.lblParticipantes);
@@ -232,7 +232,7 @@
         private System.Windows.Forms.Label lblParticipantes;
         private System.Windows.Forms.Label lblAbandonos;
         private System.Windows.Forms.Label lblDescalificados;
-        private System.Windows.Forms.TextBox txtCompetenciaID;
+        private System.Windows.Forms.TextBox txtCompetenciaNombre;
         private Microsoft.VisualBasic.PowerPacks.RectangleShape recCabecera;
         private Microsoft.VisualBasic.PowerPacks.RectangleShape recFooter;
         private Microsoft.VisualBasic.PowerPacks.ShapeContainer shapeContainer1;

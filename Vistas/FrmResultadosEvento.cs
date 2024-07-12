@@ -19,25 +19,35 @@ namespace Vistas
 
         private void btnBuscar_Click(object sender, EventArgs e)
         {
-            int competenciaID = int.Parse(txtCompetenciaID.Text);
+            string nombreCompetencia = txtCompetenciaNombre.Text;
             Trabajar_Evento trabajarEvento = new Trabajar_Evento();
-            List<Evento> eventos = trabajarEvento.ObtenerResultados(competenciaID);
-            List<Evento> eventosOrdenados = trabajarEvento.CalcularOrden(eventos);
+            int competenciaID = trabajarEvento.ObtenerCompetenciaIDNombre(nombreCompetencia);
 
-            dvgResultados.DataSource = eventosOrdenados.Select((ev, index) =>
-               new
-               {
-                   Orden = index + 1,
-                   Atleta = trabajarEvento.ObtenerNombreAtleta(ev.Atl_ID),
-                   Categoria = trabajarEvento.ObtenerCategoria(ev.Atl_ID),
-                   Disiplina = trabajarEvento.ObtenerDisciplina(ev.Com_ID),
-                   TiempoLLegada = (ev.Eve_HoraFin - ev.Eve_HoraInicio).ToString(@"dd\.hh\:mm\:ss")
-               }
-             ).ToList();
+            if (competenciaID > 0)
+            {
+                List<Evento> eventos = trabajarEvento.ObtenerResultados(competenciaID);
+                List<Evento> eventosOrdenados = trabajarEvento.CalcularOrden(eventos);
 
-            lblParticipantes.Text = String.Format("Participantes: {0}", eventos.Count);
-            lblAbandonos.Text = String.Format("Abandonos: {0}", eventos.Count(ev => ev.Eve_Estado == "Abandono"));
-            lblDescalificados.Text = String.Format("Descalificados: {0}", eventos.Count(ev => ev.Eve_Estado == "Descalificados"));
+                dvgResultados.DataSource = eventosOrdenados.Select((ev, index) =>
+                   new
+                   {
+                       Orden = index + 1,
+                       Atleta = trabajarEvento.ObtenerNombreAtleta(ev.Atl_ID),
+                       Categoria = trabajarEvento.ObtenerCategoria(ev.Atl_ID),
+                       Disiplina = trabajarEvento.ObtenerDisciplina(ev.Com_ID),
+                       TiempoLLegada = (ev.Eve_HoraFin - ev.Eve_HoraInicio).ToString(@"dd\.hh\:mm\:ss")
+                   }
+                 ).ToList();
+
+                lblParticipantes.Text = String.Format("Participantes: {0}", eventos.Count);
+                lblAbandonos.Text = String.Format("Abandonos: {0}", eventos.Count(ev => ev.Eve_Estado == "Abandono"));
+                lblDescalificados.Text = String.Format("Descalificados: {0}", eventos.Count(ev => ev.Eve_Estado == "Descalificados"));
+            }
+            else 
+            {
+                MessageBox.Show("Competencia no encontrada.");
+            }
+            
         }
 
 

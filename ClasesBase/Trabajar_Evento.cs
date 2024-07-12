@@ -83,16 +83,38 @@ namespace ClasesBase
 
         private static string connectionString = ClasesBase.Properties.Settings.Default.comdep;
 
+        public int ObtenerCompetenciaIDNombre(string nombreCompetencia) 
+        {
+            int competenciaID = 0;
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                string query = "SELECT Com_ID FROM Competencia WHERE Com_nombre = @nombreCompetencia";
+                SqlCommand command = new SqlCommand(query, connection);
+                command.Parameters.AddWithValue("@nombreCompetencia", nombreCompetencia);
+                connection.Open();
+
+                object result = command.ExecuteScalar();
+                if (result != null) 
+                {
+                    competenciaID = Convert.ToInt32(result);
+                }
+
+                connection.Close();
+            }
+
+            return competenciaID;
+
+        }
+
         public List<Evento> ObtenerResultados(int competenciaID)
         {
             List<Evento> eventos = new List<Evento>();
 
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
-                SqlCommand command = new SqlCommand();
-                command.CommandText = "ObtenerResultados";
-                command.CommandType = CommandType.StoredProcedure;
-                command.Connection = connection;
+                string query = "SELECT * FROM Evento WHERE Com_ID = @CompetenciaID";
+                SqlCommand command = new SqlCommand(query, connection);
                 command.Parameters.AddWithValue("@CompetenciaID", competenciaID);
 
                 connection.Open();
@@ -125,10 +147,8 @@ namespace ClasesBase
         {
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
-                SqlCommand command = new SqlCommand();
-                command.CommandText = "ObtenerNombreAtleta";
-                command.CommandType = CommandType.StoredProcedure;
-                command.Connection = connection;
+                string query = "SELECT Atl_Nombre FROM Atleta WHERE Atl_ID = @AtletaID";
+                SqlCommand command = new SqlCommand(query, connection);
                 command.Parameters.AddWithValue("@AtletaID", atletaID);
 
                 connection.Open();
@@ -140,10 +160,8 @@ namespace ClasesBase
         {
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
-                SqlCommand command = new SqlCommand();
-                command.CommandText = "ObtenerCategoria";
-                command.CommandType = CommandType.StoredProcedure;
-                command.Connection = connection;
+                string query = "SELECT Cat_Nombre FROM Categoria WHERE Cat_ID = (SELECT Cat_ID FROM Atleta WHERE Atl_ID = @AtletaID)";
+                SqlCommand command = new SqlCommand(query, connection);
                 command.Parameters.AddWithValue("@AtletaID", atletaID);
 
                 connection.Open();
@@ -155,10 +173,8 @@ namespace ClasesBase
         {
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
-                SqlCommand command = new SqlCommand();
-                command.CommandText = "ObtenerDisciplina";
-                command.CommandType = CommandType.StoredProcedure;
-                command.Connection = connection;
+                string query = "SELECT Dis_Nombre FROM Disiplina WHERE Dis_ID = (SELECT Dis_ID FROM Competencia WHERE Com_ID = @CompetenciaID)";
+                SqlCommand command = new SqlCommand(query, connection);
                 command.Parameters.AddWithValue("@CompetenciaID", competenciaID);
 
                 connection.Open();
