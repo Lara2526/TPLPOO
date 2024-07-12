@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmABMCategoria));
             this.label1 = new System.Windows.Forms.Label();
             this.no = new System.Windows.Forms.Label();
@@ -52,8 +53,10 @@
             this.lblEliminar = new System.Windows.Forms.Label();
             this.imgLogo = new System.Windows.Forms.PictureBox();
             this.lblModificar1 = new System.Windows.Forms.Label();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dgvCategoria)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgLogo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -92,15 +95,15 @@
             // 
             // dgvCategoria
             // 
-            resources.ApplyResources(this.dgvCategoria, "dgvCategoria");
             this.dgvCategoria.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            resources.ApplyResources(this.dgvCategoria, "dgvCategoria");
             this.dgvCategoria.Name = "dgvCategoria";
             this.dgvCategoria.CurrentCellChanged += new System.EventHandler(this.dgvCategoria_CurrentCellChanged);
             // 
             // btnLimpiar
             // 
-            resources.ApplyResources(this.btnLimpiar, "btnLimpiar");
             this.btnLimpiar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            resources.ApplyResources(this.btnLimpiar, "btnLimpiar");
             this.btnLimpiar.ForeColor = System.Drawing.Color.White;
             this.btnLimpiar.Name = "btnLimpiar";
             this.btnLimpiar.UseVisualStyleBackColor = false;
@@ -108,8 +111,8 @@
             // 
             // btnAgregar
             // 
-            resources.ApplyResources(this.btnAgregar, "btnAgregar");
             this.btnAgregar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            resources.ApplyResources(this.btnAgregar, "btnAgregar");
             this.btnAgregar.ForeColor = System.Drawing.Color.White;
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.UseVisualStyleBackColor = false;
@@ -143,14 +146,14 @@
             // 
             // recCabecera
             // 
-            resources.ApplyResources(this.recCabecera, "recCabecera");
             this.recCabecera.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            resources.ApplyResources(this.recCabecera, "recCabecera");
             this.recCabecera.Name = "recCabecera";
             // 
             // recFooter
             // 
-            resources.ApplyResources(this.recFooter, "recFooter");
             this.recFooter.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            resources.ApplyResources(this.recFooter, "recFooter");
             this.recFooter.Name = "recFooter";
             // 
             // shapeContainer1
@@ -164,8 +167,8 @@
             // 
             // btnEliminar
             // 
-            resources.ApplyResources(this.btnEliminar, "btnEliminar");
             this.btnEliminar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            resources.ApplyResources(this.btnEliminar, "btnEliminar");
             this.btnEliminar.ForeColor = System.Drawing.Color.White;
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.UseVisualStyleBackColor = false;
@@ -173,8 +176,8 @@
             // 
             // btnModificar
             // 
-            resources.ApplyResources(this.btnModificar, "btnModificar");
             this.btnModificar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            resources.ApplyResources(this.btnModificar, "btnModificar");
             this.btnModificar.ForeColor = System.Drawing.Color.White;
             this.btnModificar.Name = "btnModificar";
             this.btnModificar.UseVisualStyleBackColor = false;
@@ -188,8 +191,8 @@
             // 
             // lblEliminar1
             // 
-            resources.ApplyResources(this.lblEliminar1, "lblEliminar1");
             this.lblEliminar1.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.lblEliminar1, "lblEliminar1");
             this.lblEliminar1.Name = "lblEliminar1";
             // 
             // lblEliminar
@@ -200,23 +203,27 @@
             // 
             // imgLogo
             // 
-            resources.ApplyResources(this.imgLogo, "imgLogo");
             this.imgLogo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            resources.ApplyResources(this.imgLogo, "imgLogo");
             this.imgLogo.Name = "imgLogo";
             this.imgLogo.TabStop = false;
             // 
             // lblModificar1
             // 
-            resources.ApplyResources(this.lblModificar1, "lblModificar1");
             this.lblModificar1.BackColor = System.Drawing.Color.Transparent;
+            resources.ApplyResources(this.lblModificar1, "lblModificar1");
             this.lblModificar1.Name = "lblModificar1";
+            // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
             // 
             // FrmABMCategoria
             // 
-            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.BackgroundImage = global::Vistas.Properties.Resources.fondo1;
+            resources.ApplyResources(this, "$this");
             this.Controls.Add(this.lblModificar1);
             this.Controls.Add(this.imgLogo);
             this.Controls.Add(this.lblGrupo07);
@@ -242,6 +249,7 @@
             this.Load += new System.EventHandler(this.FrmABMCategoria_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvCategoria)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgLogo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -272,5 +280,6 @@
         private System.Windows.Forms.Label lblEliminar;
         private System.Windows.Forms.PictureBox imgLogo;
         private System.Windows.Forms.Label lblModificar1;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }

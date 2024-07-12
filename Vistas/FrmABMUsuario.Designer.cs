@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmABMUsuario));
             this.btnAgregar = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -58,8 +59,10 @@
             this.lblModificar1 = new System.Windows.Forms.Label();
             this.lblModificar = new System.Windows.Forms.Label();
             this.imgLogo = new System.Windows.Forms.PictureBox();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dgvusuario)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgLogo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnAgregar
@@ -210,7 +213,6 @@
             this.lbID.TabIndex = 14;
             this.lbID.Text = "0";
             this.lbID.Visible = false;
-            this.lbID.Click += new System.EventHandler(this.lbID_Click);
             // 
             // btnModificar
             // 
@@ -373,6 +375,10 @@
             this.imgLogo.TabIndex = 122;
             this.imgLogo.TabStop = false;
             // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
+            // 
             // FrmABMUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -413,6 +419,7 @@
             this.Load += new System.EventHandler(this.ABMUsuario_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvusuario)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgLogo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -449,5 +456,6 @@
         private System.Windows.Forms.Label lblModificar1;
         private System.Windows.Forms.Label lblModificar;
         private System.Windows.Forms.PictureBox imgLogo;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }

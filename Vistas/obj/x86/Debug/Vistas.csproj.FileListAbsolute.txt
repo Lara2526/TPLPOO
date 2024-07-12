@@ -83,3 +83,25 @@ D:\Datos de descargas\Anto\LPOO1_2024\Proyectos\TPLPOO\Vistas\bin\Debug\ClasesBa
 D:\Datos de descargas\Anto\LPOO1_2024\Proyectos\TPLPOO\Vistas\bin\Debug\es-AR\Vistas.resources.dll
 D:\Datos de descargas\Anto\LPOO1_2024\Proyectos\TPLPOO\Vistas\obj\x86\Debug\Vistas.FrmABMCategoria.es-AR.resources
 D:\Datos de descargas\Anto\LPOO1_2024\Proyectos\TPLPOO\Vistas\obj\x86\Debug\es-AR\Vistas.resources.dll
+C:\Users\admin\Documents\v4\TPLPOO-develop\Vistas\obj\x86\Debug\Vistas.exe
+C:\Users\admin\Documents\v4\TPLPOO-develop\Vistas\obj\x86\Debug\Vistas.pdb
+C:\Users\admin\Documents\v4\TPLPOO-develop\Vistas\obj\x86\Debug\Vistas.csprojResolveAssemblyReference.cache
+C:\Users\admin\Documents\v4\TPLPOO-develop\Vistas\obj\x86\Debug\Vistas.FrmABMCompetencias.resources
+C:\Users\admin\Documents\v4\TPLPOO-develop\Vistas\obj\x86\Debug\Vistas.FrmABMParticipantes.resources
+C:\Users\admin\Documents\v4\TPLPOO-develop\Vistas\obj\x86\Debug\Vistas.FrmABMUsuario.resources
+C:\Users\admin\Documents\v4\TPLPOO-develop\Vistas\obj\x86\Debug\Vistas.FrmABMCategoria.resources
+C:\Users\admin\Documents\v4\TPLPOO-develop\Vistas\obj\x86\Debug\Vistas.FrmABMDisciplina.resources
+C:\Users\admin\Documents\v4\TPLPOO-develop\Vistas\obj\x86\Debug\Vistas.FrmAnularInscripcion.resources
+C:\Users\admin\Documents\v4\TPLPOO-develop\Vistas\obj\x86\Debug\Vistas.FrmCronometraje.resources
+C:\Users\admin\Documents\v4\TPLPOO-develop\Vistas\obj\x86\Debug\Vistas.FrmInscripcionEvento.resources
+C:\Users\admin\Documents\v4\TPLPOO-develop\Vistas\obj\x86\Debug\Vistas.FrmMenu.resources
+C:\Users\admin\Documents\v4\TPLPOO-develop\Vistas\obj\x86\Debug\Vistas.FrmLogin.resources
+C:\Users\admin\Documents\v4\TPLPOO-develop\Vistas\obj\x86\Debug\Vistas.Properties.Resources.resources
+C:\Users\admin\Documents\v4\TPLPOO-develop\Vistas\obj\x86\Debug\Vistas.FrmABMCategoria.es-AR.resources
+C:\Users\admin\Documents\v4\TPLPOO-develop\Vistas\obj\x86\Debug\Vistas.csproj.GenerateResource.Cache
+C:\Users\admin\Documents\v4\TPLPOO-develop\Vistas\bin\Debug\Vistas.exe
+C:\Users\admin\Documents\v4\TPLPOO-develop\Vistas\bin\Debug\Vistas.pdb
+C:\Users\admin\Documents\v4\TPLPOO-develop\Vistas\bin\Debug\es-AR\Vistas.resources.dll
+C:\Users\admin\Documents\v4\TPLPOO-develop\Vistas\bin\Debug\ClasesBase.dll
+C:\Users\admin\Documents\v4\TPLPOO-develop\Vistas\bin\Debug\ClasesBase.pdb
+C:\Users\admin\Documents\v4\TPLPOO-develop\Vistas\obj\x86\Debug\es-AR\Vistas.resources.dll

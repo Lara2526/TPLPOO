@@ -24,6 +24,10 @@ namespace Vistas
             combo_Disciplina();
             combo_Categoria();
             combo_Estado();
+            lbid.Visible = false;
+            lbid.Enabled = false;
+            btnModificar.Enabled = false;
+            btnEliminar.Enabled = false;
         }
 
         
@@ -63,7 +67,8 @@ namespace Vistas
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-            if (txtNombre.Text != "" && txtDescripcion.Text != "")
+            borrar_error();
+            if (validar_espacios_en_blanco())
             {
                 Competencia ocom = new Competencia();
                 ocom.Com_Nombre = txtNombre.Text;
@@ -107,6 +112,10 @@ namespace Vistas
 
                 cmbEstado.Text = dgvCompetencias.CurrentRow.Cells["Estado"].Value.ToString();
 
+                lbid.Visible = true;
+                btnModificar.Enabled = true;
+                btnEliminar.Enabled = true;
+                borrar_error();
               
             }
 
@@ -150,6 +159,46 @@ namespace Vistas
                 limpiar();
 
             }
+        }
+
+        private bool validar_espacios_en_blanco()
+        {
+            bool validacion = true;
+            if (txtNombre.Text == "")
+            {
+                validacion = false;
+                errorProvider1.SetError(txtNombre, "Ingresar nombre");
+            }
+            if (txtDescripcion.Text == "")
+            {
+                validacion = false;
+                errorProvider1.SetError(txtDescripcion, "Ingresar la descripcion");
+            }
+            if (txtOrganizador.Text == "")
+            {
+                validacion = false;
+                errorProvider1.SetError(txtOrganizador, "Ingresar el organizador");
+            }
+            if (txtUbicacion.Text == "")
+            {
+                validacion = false;
+                errorProvider1.SetError(txtUbicacion, "Ingresar la ubicacion");
+            }
+            if (txtSponsors.Text == "")
+            {
+                validacion = false;
+                errorProvider1.SetError(txtSponsors, "Ingresar el sponsors");
+            }
+
+            return validacion;
+        }
+        private void borrar_error()
+        {
+            errorProvider1.SetError(txtNombre, "");
+            errorProvider1.SetError(txtDescripcion, "");
+            errorProvider1.SetError(txtOrganizador, "");
+            errorProvider1.SetError(txtUbicacion, "");
+            errorProvider1.SetError(txtSponsors, "");
         }
 
     }
