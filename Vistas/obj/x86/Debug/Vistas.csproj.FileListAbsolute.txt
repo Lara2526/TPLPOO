@@ -105,3 +105,5 @@ C:\Users\admin\Documents\v4\TPLPOO-develop\Vistas\bin\Debug\es-AR\Vistas.resourc
 C:\Users\admin\Documents\v4\TPLPOO-develop\Vistas\bin\Debug\ClasesBase.dll
 C:\Users\admin\Documents\v4\TPLPOO-develop\Vistas\bin\Debug\ClasesBase.pdb
 C:\Users\admin\Documents\v4\TPLPOO-develop\Vistas\obj\x86\Debug\es-AR\Vistas.resources.dll
+E:\App-C#-VB.NET\TPLPOO\Vistas\obj\x86\Debug\Vistas.exe
+E:\App-C#-VB.NET\TPLPOO\Vistas\obj\x86\Debug\Vistas.pdb
