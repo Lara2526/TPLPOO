@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.dtpFechaNac = new System.Windows.Forms.DateTimePicker();
             this.cmbNacionalidad = new System.Windows.Forms.ComboBox();
             this.nudPeso = new System.Windows.Forms.NumericUpDown();
@@ -75,10 +76,12 @@
             this.lblEliminar1 = new System.Windows.Forms.Label();
             this.lblModificar = new System.Windows.Forms.Label();
             this.lblModificar1 = new System.Windows.Forms.Label();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.nudPeso)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudAltura)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dgvAtleta)).BeginInit();
             this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // dtpFechaNac
@@ -590,6 +593,10 @@
             this.lblModificar1.TabIndex = 119;
             this.lblModificar1.Text = "Seleccione al participante, editelo y presione MODIFICAR.";
             // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
+            // 
             // FrmABMParticipantes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -648,6 +655,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dgvAtleta)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -702,6 +710,7 @@
         private System.Windows.Forms.Label lblEliminar1;
         private System.Windows.Forms.Label lblModificar;
         private System.Windows.Forms.Label lblModificar1;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
 
     }
 }

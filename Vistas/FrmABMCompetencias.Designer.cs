@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmABMCompetencias));
             this.txtOrganizador = new System.Windows.Forms.TextBox();
             this.txtDescripcion = new System.Windows.Forms.TextBox();
@@ -66,8 +67,10 @@
             this.lblEliminar1 = new System.Windows.Forms.Label();
             this.lblModificar1 = new System.Windows.Forms.Label();
             this.lblModificar = new System.Windows.Forms.Label();
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.dgvCompetencias)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgLogo)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // txtOrganizador
@@ -444,6 +447,10 @@
             this.lblModificar.TabIndex = 115;
             this.lblModificar.Text = "Para  Modificar";
             // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
+            // 
             // FrmABMCompetencias
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -492,6 +499,7 @@
             this.Load += new System.EventHandler(this.FrmABMCompetencias_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvCompetencias)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.imgLogo)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -536,5 +544,6 @@
         private System.Windows.Forms.Label lblEliminar1;
         private System.Windows.Forms.Label lblModificar1;
         private System.Windows.Forms.Label lblModificar;
+        private System.Windows.Forms.ErrorProvider errorProvider1;
     }
 }

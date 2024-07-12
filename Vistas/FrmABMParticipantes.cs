@@ -57,7 +57,8 @@ namespace Vistas
             foreach (object obj in Controls)
                 if (obj is TextBox)
                     ((TextBox)obj).Text = "";
-
+            btnModificar.Enabled = false;
+            btnEliminar.Enabled = false;
         }
         private void cargar_tabla()
         {
@@ -69,6 +70,11 @@ namespace Vistas
         {
             cargar_tabla();
             limpiar();
+
+           
+            lbID.Enabled = false;
+            btnModificar.Enabled = false;
+            btnEliminar.Enabled = false;
         }
 
         private void btnLimpiar_Click(object sender, EventArgs e)
@@ -112,6 +118,11 @@ namespace Vistas
                 txtDireccion.Text=dgvAtleta.CurrentRow.Cells["Direccion"].Value.ToString();
                 txtEmail.Text = dgvAtleta.CurrentRow.Cells["Email"].Value.ToString(); 
                 lbID.Text = dgvAtleta.CurrentRow.Cells["ID"].Value.ToString();
+
+               
+                btnModificar.Enabled = true;
+                btnEliminar.Enabled = true;
+                borrar_error();
             }
         }
 
@@ -158,6 +169,51 @@ namespace Vistas
             }
 
 
+        }
+        private bool validar_espacios_en_blanco()
+        {
+            bool validacion = true;
+            if (txtNombre.Text == "")
+            {
+                validacion = false;
+                errorProvider1.SetError(txtNombre, "Ingresar nombre");
+            }
+            if (txtApellido.Text == "")
+            {
+                validacion = false;
+                errorProvider1.SetError(txtApellido, "Ingresar apellido");
+            }
+            if (txtDNI.Text == "")
+            {
+                validacion = false;
+                errorProvider1.SetError(txtDNI, "Ingresar el dni");
+            }
+            if (txtEntrenador.Text == "")
+            {
+                validacion = false;
+                errorProvider1.SetError(txtEntrenador, "Ingresar el entrenador");
+            }
+            if (txtDireccion.Text == "")
+            {
+                validacion = false;
+                errorProvider1.SetError(txtDireccion, "Ingresar la dirección");
+            }
+
+            if (txtEmail.Text == "")
+            {
+                validacion = false;
+                errorProvider1.SetError(txtEmail, "Ingresar el sponsors");
+            }
+            return validacion;
+        }
+        private void borrar_error()
+        {
+            errorProvider1.SetError(txtNombre, "");
+            errorProvider1.SetError(txtApellido, "");
+            errorProvider1.SetError(txtDNI, "");
+            errorProvider1.SetError(txtEntrenador, "");
+            errorProvider1.SetError(txtDireccion, "");
+            errorProvider1.SetError(txtEmail, "");
         }
     }
 }
