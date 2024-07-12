@@ -36,6 +36,8 @@
             this.ABMParticipanteMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.eventosMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cronometrajeToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.incripciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.anularIncripciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.disciplinaMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.crearDisciplinaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.categoriaMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -47,8 +49,7 @@
             this.shapeContainer1 = new Microsoft.VisualBasic.PowerPacks.ShapeContainer();
             this.lblGrupo07 = new System.Windows.Forms.Label();
             this.lblLPOOI = new System.Windows.Forms.Label();
-            this.incripciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.anularIncripciónToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.resultadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -124,7 +125,8 @@
             this.eventosMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.cronometrajeToolStripMenuItem,
             this.incripciónToolStripMenuItem,
-            this.anularIncripciónToolStripMenuItem});
+            this.anularIncripciónToolStripMenuItem,
+            this.resultadosToolStripMenuItem});
             this.eventosMenuItem.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.eventosMenuItem.ForeColor = System.Drawing.Color.Black;
             this.eventosMenuItem.Name = "eventosMenuItem";
@@ -138,6 +140,20 @@
             this.cronometrajeToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
             this.cronometrajeToolStripMenuItem.Text = "Cronometraje";
             this.cronometrajeToolStripMenuItem.Click += new System.EventHandler(this.cronometrajeToolStripMenuItem_Click);
+            // 
+            // incripciónToolStripMenuItem
+            // 
+            this.incripciónToolStripMenuItem.Name = "incripciónToolStripMenuItem";
+            this.incripciónToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
+            this.incripciónToolStripMenuItem.Text = "Inscripción";
+            this.incripciónToolStripMenuItem.Click += new System.EventHandler(this.incripciónToolStripMenuItem_Click);
+            // 
+            // anularIncripciónToolStripMenuItem
+            // 
+            this.anularIncripciónToolStripMenuItem.Name = "anularIncripciónToolStripMenuItem";
+            this.anularIncripciónToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
+            this.anularIncripciónToolStripMenuItem.Text = "Anular Inscripción";
+            this.anularIncripciónToolStripMenuItem.Click += new System.EventHandler(this.anularIncripciónToolStripMenuItem_Click);
             // 
             // disciplinaMenuItem
             // 
@@ -247,19 +263,12 @@
             this.lblLPOOI.TabIndex = 5;
             this.lblLPOOI.Text = "Laboratorio de Programación Orientada a Objetos I - 2024";
             // 
-            // incripciónToolStripMenuItem
+            // resultadosToolStripMenuItem
             // 
-            this.incripciónToolStripMenuItem.Name = "incripciónToolStripMenuItem";
-            this.incripciónToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
-            this.incripciónToolStripMenuItem.Text = "Inscripción";
-            this.incripciónToolStripMenuItem.Click += new System.EventHandler(this.incripciónToolStripMenuItem_Click);
-            // 
-            // anularIncripciónToolStripMenuItem
-            // 
-            this.anularIncripciónToolStripMenuItem.Name = "anularIncripciónToolStripMenuItem";
-            this.anularIncripciónToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
-            this.anularIncripciónToolStripMenuItem.Text = "Anular Inscripción";
-            this.anularIncripciónToolStripMenuItem.Click += new System.EventHandler(this.anularIncripciónToolStripMenuItem_Click);
+            this.resultadosToolStripMenuItem.Name = "resultadosToolStripMenuItem";
+            this.resultadosToolStripMenuItem.Size = new System.Drawing.Size(179, 22);
+            this.resultadosToolStripMenuItem.Text = "Resultados";
+            this.resultadosToolStripMenuItem.Click += new System.EventHandler(this.resultadosToolStripMenuItem_Click);
             // 
             // FrmMenu
             // 
@@ -308,5 +317,6 @@
         private System.Windows.Forms.Label lblLPOOI;
         private System.Windows.Forms.ToolStripMenuItem incripciónToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem anularIncripciónToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem resultadosToolStripMenuItem;
     }
 }

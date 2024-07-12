@@ -103,6 +103,12 @@ namespace Vistas
             ofrmAnular.Show();
         }
 
+        private void resultadosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmResultadosEvento ofrmResultado = new FrmResultadosEvento();
+            ofrmResultado.Show();
+        }
+
 
     }
 }
